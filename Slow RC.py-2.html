@@ -1,0 +1,40 @@
+#!/usr/bin/env python
+# coding: utf-8
+
+# In[8]:
+
+
+import numpy as np
+import matplotlib.pyplot as plt
+V = np.array([3.93, 6.23, 7.76, 8.73, 9.34, 9.69, 9.95, 10.09, 10.21, 10.29, 10.33, 10.37])
+t = np.array([10, 20, 30, 40, 50, 60, 70, 80, 90, 100, 110, 120])
+
+plt.figure(figsize=(15,10))
+plt.xlabel('Time')
+plt.ylabel('Voltage')
+plt.title('Charging')
+plt.plot(t,V)
+plt.show()
+
+
+# In[10]:
+
+
+import numpy as np
+import matplotlib.pyplot as plt
+V = np.array([11.71, 7.85, 5.42, 3.69, 2.56, 1.78, 1.22, .86, .68, .42, .29, .21])
+t = np.array([10, 20, 30, 40, 50, 60, 70, 80, 90, 100, 110, 120])
+
+plt.figure(figsize=(15,10))
+plt.xlabel('Time')
+plt.ylabel('Voltage')
+plt.title('Discharging')
+plt.plot(t,V)
+plt.show()
+
+
+# In[ ]:
+
+
+
+
